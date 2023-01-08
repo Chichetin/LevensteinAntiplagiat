@@ -36,7 +36,7 @@ def id_remover(str):
 
 
 def plagiat(file1, file2):
-    file1 = file_cleaner(file1)  # это чтоб когда я буду менять переменные по ' - не упал никакой хуйни
+    file1 = file_cleaner(file1)
     file2 = file_cleaner(file2)
     str1 = ast.dump(ast.parse(file1))
     str2 = ast.dump(ast.parse(file2))
